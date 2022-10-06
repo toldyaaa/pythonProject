@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+c = a
+d = b
+e = 0
+while c != 0 and d !=0:
+    if c > d:
+        c = c % d
+    elif c < d:
+        d = d % c
+e = d + c
+print(e)
+nok = a * b // e
+print(nok)
